@@ -25,6 +25,9 @@ html {
 	}
 }
 
+.test-drive {
+	text-decoration: underline;
+}
 
 .top-center {
 	text-align: center;
@@ -85,6 +88,31 @@ aside a {
 	color: inherit;
 	font-weight: 200;
 	font-size: 15px;
+}
+
+aside a:hover {
+	background-color: rgb(242 242 242);
+}
+
+aside .language {
+	display: grid;
+	grid-template-columns: 1fr 6fr;
+	padding: 15px;
+	text-align: left;
+}
+
+aside .language:hover {
+	background-color: rgb(242 242 242);
+}
+
+aside .language a {
+	padding: 0;
+}
+
+
+
+aside .language img {
+	margin: auto;
 }
 
 aside button.exit {
@@ -171,8 +199,9 @@ section .buttons a {
 	opacity: 0.9;
 }
 
+
 section .buttons a:first-child {
-	color: #FFFFFF;
+	color: #ffffffc0;
 	background-color: #171A20CC;
 }
 
@@ -190,8 +219,26 @@ section .buttons {
 		margin: 0 auto;
 		column-gap: 23px;
 	}
+	section .single-btn {
+		grid-template-columns: 1fr;
+		width: 260px;
+	}
 }
 
 .buttons p {
 	text-align: center;
 }
+
+footer {
+	padding-top: 80px;
+	padding-bottom: 10px;
+}
+
+footer a {
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	font-size: 13px;
+	font-weight: 300;
+}
+
